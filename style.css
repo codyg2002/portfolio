@@ -1,0 +1,40 @@
+header {
+    text-align: end;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #7d97ad;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .box {
+        width: 33%;
+    }
+    figcaption {
+        width: 33%;
+    }
+}
+
+picture {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }

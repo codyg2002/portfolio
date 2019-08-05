@@ -11,9 +11,39 @@
     <body>
         <header><h1>Cody Gentry</h1></header>
         <hr>
-        <picture id="mainpic">
-
+        <picture id="mainpic"> 
+            <source media="(min-width: 1024px)" srcset="images/coding-1024_large_2x.jpeg" />
+            <source media="(min-width: 785px)" srcset="images/coding-750med.jpeg" />
+            <img src="images/coding-350_small_.jpeg" alt="a computer screen showing coding" />
         </picture>
+
+        <h2>Featured Work</h2>
+
+        <div class="grid">
+            <div class="projects">    
+                <figure>
+                    <img src="images/text-adventure-300_small_.png" alt="A screenshot of a text adventure game">
+                    <figcaption><a href="https://github.com/codyg2002/Adventure-Game"><h1>Text adventure</h1></a></figcaption>
+                </figure>
+            </div>
+
+            <div class="projects">
+                <figure>
+                    <img src="images/pixel-art-300_small_.png" alt="a pixel drawing of a slice of pizza">
+                    <figcaption><a href="https://github.com/codyg2002/Pixel-art-maker.png"><h1>Pixel art maker</h1></a></figcaption>
+                </figure>
+            </div>
+
+            <div class="projects"></div>
+                <figure>
+                    <img src="images/kisspng-horse-300_small_.png" alt="black and white bust of a horse">
+                    <figcaption><a href="https://github.com/codyg2002/Horse-bookmark"></a><h1>Horse bookmark</h1></figcaption>
+                </figure>
+            </div>
+        </div>
+        
+
+
 
     </body>
 </html>
