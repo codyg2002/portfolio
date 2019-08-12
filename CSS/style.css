@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.header_pic {
+    display: block;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #7d97ad;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+
+.box {
+    width: 100%;
+}
+
+img,
+figure {
+    display: block;
+}
+
+.mainpic {
+    align-content: center;
+}
+
+@media screen and (max-width: 535px) {
+    header {
+        flex-flow: column-reverse nowrap;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    .box,
+    figcaption {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
