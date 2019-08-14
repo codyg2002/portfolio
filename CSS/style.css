@@ -21,7 +21,8 @@ h2 {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around
+    justify-content: space-between;
+    align-content: space-around;
 }
 
 .box {
